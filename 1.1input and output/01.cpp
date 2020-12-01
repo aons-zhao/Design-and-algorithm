@@ -2,6 +2,6 @@
 //输出"hello world!"字符串。
 int main()
 {
-	printf("Hello World!");
+	printf("Hello, World!");
 	return 0;
 }

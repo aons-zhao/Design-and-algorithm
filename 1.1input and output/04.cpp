@@ -6,4 +6,4 @@ int main()
         scanf("%f",&a);
         printf("%.3f",a);
         return 0;
-}:
+}
