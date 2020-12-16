@@ -8,14 +8,14 @@
 #include <stdio.h>
 
 int main() {
-    int n, i = 0, j = 0, a[500];
+    int n, i = 0, count = 0, num;
     scanf("%d", &n);
     while (n) {
-        a[i++] = n % 2;
+        num = n % 2;
         n /= 2;
-        if (a[i - 1] == 1) j++;
+        if (num == 1) count++;
     }
-    printf("%d", j);
+    printf("%d", count);
     return 0;
 }
 
